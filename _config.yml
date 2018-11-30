@@ -25,7 +25,7 @@ facebook_link: https://www.facebook.com/tushar.singh.56027281
 
 # Footer
 footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://www.facebook.com/tushar.singh.56027281\">kumar18tushar</a>"
-footer_right: "&lt;/&gt; on <a href=\"https://github.com/kumar18tushar/kumar18tushar.github.io\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+footer_right: 
 
 # Build settings
 markdown: kramdown
