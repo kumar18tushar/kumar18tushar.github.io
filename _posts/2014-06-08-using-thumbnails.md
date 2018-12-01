@@ -52,6 +52,8 @@ Then in the future if you decide you want to use your own android icon you can j
 add it to `_data/thumbnails.yml` which will override it for all articles using
 the android thumbnail.
 
+|x| = \begin{cases} x &\text{if }x \ge 0 \\ -x &\text{if }x < 0 \end{cases}
+
 [1]: http://jekyllrb.com/docs/frontmatter/
 [2]: http://fortawesome.github.io/Font-Awesome/
 [3]: http://imgur.com/
