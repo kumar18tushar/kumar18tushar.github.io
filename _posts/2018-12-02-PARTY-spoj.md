@@ -22,7 +22,7 @@ and fun value by fun[i].
 Let  $$DP(i,j)$$  denotes the maximum total fun value with budget i and till party j (0 based indexing).
 So our answer will be DP(B,P-1)
 
-Base cases:
+Base cases-
 
 $$DP(0,j) = 0 , \forall \ j = 0 \ to \ P-1$$
 
@@ -38,6 +38,6 @@ Hence, our required answer is $$DP(\,B,P-1\,)$$
 In order to find the total amount required to obtain the maximum fun , we need to make a similary
 function AMT(i,j) and updating it for all i,j. Hence AMT(B,P-1) will give the total amount required.
 
-Link to [code](https://ideone.com/ycs7vH).
+Link to [code](https://ideone.com/ycs7vH)
 
 
