@@ -45,7 +45,7 @@ To find next number , let it be  $$(192 + m)$$.
 
 $$(192 + m)^3 = (192)^3 + k(m)$$
 
-k will be some expression in m. Since $$192^3$$ ends in 888, so we need to figure out the least value of m, so that k(m) ends with 000. On imposing this condition and some pen paper work gives,  m = 250.
+k will be some expression in m. Since $$192^3$$ ends in 888, so we need to figure out the least value of m, so that $$k(m)$$ ends with 000. On imposing this condition and some pen paper work gives,  m = 250.
 
 Hence the next number is $$(192+250)$$ and the whole sequence is an <ins>AP</ins> with common difference 250. So, the kth number of the series is -
 
