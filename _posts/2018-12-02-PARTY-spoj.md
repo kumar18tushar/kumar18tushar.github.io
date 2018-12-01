@@ -16,6 +16,8 @@ We are given with our budget ,say B. We need to select a set of parties such tha
 and total fun value is maximized.
 
 
+
+
 Say number of parties, we are given with is P. And our budget is B.We denote cost  of ith party by cost[i]
 and fun value by fun[i].
 
