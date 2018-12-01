@@ -22,9 +22,7 @@ and fun value by fun[i].
 Let  $$DP(i,j)$$  denotes the maximum total fun value with budget i and till party j (0 based indexing).
 So our answer will be DP(B,P-1)
 
-Base cases-
-
-$$DP(0,j) = 0 , \forall \ j = 0 \ to \ P-1$$
+Base cases: $$DP(0,j) = 0 , \forall \ j = 0 \ to \ P-1$$
 
 $$DP(i,0) = \begin{cases} 0 &\text{if }cost[0] > i \\ fun[0] &\text{if }cost[0] \leq i \end{cases}$$
 
