@@ -56,6 +56,8 @@ $$DP(0,j) = 0 , \forall \ j = 0 \ to \ P-1$$
 
 $$DP(i,0) = \begin{cases} 0 &\text{if }cost[0] > i \\ fun[0] &\text{if }cost[0] \leq i \end{cases}$$
 
+$$DP(i,j) = max(\DP(i\,\j-1\,\fun[j]\+\DP(i-cost[j]\,\j-1) )$$
+
 [1]: http://jekyllrb.com/docs/frontmatter/
 [2]: http://fortawesome.github.io/Font-Awesome/
 [3]: http://imgur.com/
