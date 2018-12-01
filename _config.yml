@@ -1,11 +1,11 @@
 # Site settings
 title: "kumar18tushar"
 email: kumar18tushar@gmail.com
-description: 'Nocturnal | Bibliophile | Mathematician | Programmer | Verse-Maker | Anime Fanboy | Music Lover'
+description: "My Pesonal Blog"
 baseurl: ""
 url: "http://kumar18tushar.github.io/"
-title_description: "This is my personal blog where I prefer to discuss the concepts related to various programming problems."
-title_image: "https://s.gravatar.com/avatar/b97f2c96bc186216cae31d4497967c2b?s=80"
+title_description: 'Nocturnal | Bibliophile | Mathematician | Programmer | Anime Fanboy | Music Lover | Verse-Maker'
+title_image: "https://us.123rf.com/450wm/dxinerz/dxinerz1712/dxinerz171202720/92277772-nerdy-boy-in-hat.jpg?ver=6"
 google_analytics: "UA-128217400-1"
 disqus_account: 
 github_repository: https://github.com/kumar18tushar/kumar18tushar.github.io
