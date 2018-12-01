@@ -23,7 +23,7 @@ $$(10 \cdot n + 2)^3 = 1000 \cdot n^3 + 600 \cdot n^2 + 120 \cdot n + 8$$
 Unit’s digit is already an 8, so we’ll not think upon that . Discard it and divide the remaining number by 10.
 We’re left with - 
 
-$$100 \cdot n^3 + 60 \dot n^2 + 12 \cdot n$$. 
+$$100 \cdot n^3 + 60 \cdot n^2 + 12 \cdot n$$. 
 
 Now this has to end in 88.  Actually,  $$(60 \cdot n^2 + 12 \cdot n)$$  has to end in 88 because  $$(100 \cdot n^3)$$  will always end with at least two zeroes.
 For  $$(12 \cdot n)$$   to end with an 8 , n should be ending with 4 or 9. n can be 4,9,14,19......
