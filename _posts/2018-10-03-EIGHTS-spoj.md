@@ -18,7 +18,7 @@ Let’s start by assuming the number to be $$(10 \cdot n + 2)$$.
 2 at the end because it will give us an 8 when cubed. We need to find minimum n that satisfy the given condition.
 On cubing , we get :
 
-`(10n + 2)^3 = 1000n^3 + 600n^2 + 120n + 8`
+$$(10 \cdot n + 2)^3 = 1000 \cdot n^3 + 600 \cdot n^2 + 120 \cdot n + 8$$
 
 Unit’s digit is already an 8, so we’ll not think upon that . Discard it and divide the remaining number by 10.
 We’re left with `100n^3 + 60n^2 + 12n`. Now this has to end in 88.Actually, `60n^2 + 12n` has to end in 88 because `100n^3` will always end with at least two zeroes.
