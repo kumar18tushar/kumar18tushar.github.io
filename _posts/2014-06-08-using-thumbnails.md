@@ -52,7 +52,7 @@ Then in the future if you decide you want to use your own android icon you can j
 add it to `_data/thumbnails.yml` which will override it for all articles using
 the android thumbnail.
 
-\documentclass{article}
+$$\documentclass{article}
 \begin{document}
 \[   \left\{
 \begin{array}{ll}
@@ -62,7 +62,7 @@ the android thumbnail.
       1 & c\leq x \\
 \end{array} 
 \right. \]
-\end{document}
+\end{document}$$
 
 [1]: http://jekyllrb.com/docs/frontmatter/
 [2]: http://fortawesome.github.io/Font-Awesome/
