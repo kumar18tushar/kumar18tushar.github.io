@@ -14,7 +14,7 @@ tags:
 This is a famous spoj problem [EIGHTS](https://www.spoj.com/problems/EIGHTS/)
 Basically, we need to find Kth number whose cube ends in "888".
 
-Let’s start by assuming the number to be $$ 10 \cdot n + 2 $$ .
+Let’s start by assuming the number to be $$(10\cdotn + 2)$$ .
 2 at the end because it will give us an 8 when cubed. We need to find minimum n that satisfy the given condition.
 On cubing , we get :
 
