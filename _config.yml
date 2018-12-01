@@ -7,7 +7,7 @@ url: "http://kumar18tushar.github.io/"
 title_description: "This is my personal blog where I prefer to discuss the concepts related to various programming problems."
 title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
 google_analytics: "UA-128217400-1"
-disqus_account: 
+disqus_account: https://disqus.com/by/tusharkrsingh/
 github_repository: https://github.com/kumar18tushar/kumar18tushar.github.io
 addthis_id: 
 post_limit: 5
@@ -25,7 +25,7 @@ facebook_link: https://www.facebook.com/tushar.singh.56027281
 
 # Footer
 footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://www.facebook.com/tushar.singh.56027281\">kumar18tushar</a>"
-footer_right:  
+footer_right: 
 
 # Build settings
 markdown: kramdown
