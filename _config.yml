@@ -1,5 +1,5 @@
 # Site settings
-title: "Tushar Kumar Singh"
+title: "kumar18tushar"
 email: kumar18tushar@gmail.com
 description: "My Pesonal Blog"
 baseurl: ""
@@ -14,6 +14,7 @@ post_limit: 5
 
 # Social usernames/URLs
 twitter_username: 
+email: mailto:kumar18tushar@gmail.com
 github_username:  kumar18tushar
 instagram_username: 
 reddit_username: 
