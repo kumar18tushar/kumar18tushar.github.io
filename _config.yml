@@ -20,11 +20,11 @@ reddit_username:
 linkedin_link: 
 google_plus_link: //plus.google.com/116619499162789899432
 stackoverflow_link: https://stackoverflow.com/users/9677568/kumar18tushar
-xing_link: 
+xing_link:
 facebook_link: https://www.facebook.com/tushar.singh.56027281
 
 # Footer
-footer_left: "I <i class=\"fa fa-heart\"></i> feedback at : kumar18tushar@gmail.com"
+footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://www.facebook.com/tushar.singh.56027281\">kumar18tushar</a>"
 footer_right: 
 
 # Build settings
