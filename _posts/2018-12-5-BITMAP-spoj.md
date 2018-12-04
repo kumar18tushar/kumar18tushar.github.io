@@ -25,7 +25,7 @@ This is approach is correct but not fast enough to pass the time constraint.
 A better approach to solve this problem is to use multisource-bfs technique.
 Let us say the cells which have 1's in them are source and rest as vertices.
 
-Explanation: 
+# Explanation:
 The C++ implementation uses a set of pairs (distance from the source, (row,col) ) sorted according to the distance from the source.
 Initially, we push all the sources into the set with distance = 0, and the rest of the vertices with distance = infinity. 
 On each step, we will go to the vertex with minimum distance(d) from source, i.e, the first element of the set 
