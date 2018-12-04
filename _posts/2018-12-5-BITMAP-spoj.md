@@ -14,7 +14,7 @@ This is a famous spoj problem [BITMAP](https://www.spoj.com/problems/BITMAP/).
 Basically, we are given with an n x m matrix of 0 and 1.
 We need to find the distance of each cell from the nearest cell containing 1.
 
-Say number of row is n  and number of column id m. And our matrix is mat . 
+Say number of row is n  and number of column is m. And our matrix is mat . 
 
 $$1 <= n <= 182 \\ 1 <= m <= 182$$
 
@@ -36,4 +36,4 @@ The idea is there cannot be a shorter path to the vertex at the front of the set
 
 Since all the sources have a distance = 0, in the beginning, the adjacent non-source vertices will get a distance = 1. All vertices will get distance = distance from their nearest source.
 
-Implementation : [code](https://ideone.com/VsBLYx)
+# Implementation: [code](https://ideone.com/7R7WMB)
