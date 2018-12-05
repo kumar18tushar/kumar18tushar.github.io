@@ -51,6 +51,6 @@ Hence the next number is $$(192+250)$$ and the whole sequence is an <ins>AP</ins
 
 $$192 + (k − 1)250$$
 
-**Further Reading:** [link](http://qr.ae/TUGHty)
+**Further Reading :** [link](http://qr.ae/TUGHty)
 
 
