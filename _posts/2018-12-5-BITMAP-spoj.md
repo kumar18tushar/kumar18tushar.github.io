@@ -36,4 +36,4 @@ The idea is there cannot be a shorter path to the vertex at the front of the set
 
 Since all the sources have a distance = 0, in the beginning, the adjacent non-source vertices will get a distance = 1. All vertices will get distance = distance from their nearest source.
 
-**Implementation** : [code](https://ideone.com/7R7WMB)
+**Implementation:** [code](https://ideone.com/7R7WMB)
