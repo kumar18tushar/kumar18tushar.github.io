@@ -38,6 +38,6 @@ Hence, our required answer is $$DP(\,B,P-1\,)$$
 In order to find the total amount required to obtain the maximum fun , we need to make a similary
 function AMT(i,j) and updating it for all i,j. Hence AMT(B,P-1) will give the total amount required.
 
-Link to [code](https://ideone.com/ycs7vH)
+**Implementation:** [code](https://ideone.com/ycs7vH)
 
 
