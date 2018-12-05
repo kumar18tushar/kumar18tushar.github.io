@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Bitmap(Spoj)
-date:       2018-12-02 1:21:18
+date:       2018-12-05 1:21:18
 summary:    A bfs problem on spoj
 categories: BFS
 thumbnail: cogs
