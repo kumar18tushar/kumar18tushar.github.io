@@ -22,7 +22,7 @@ The naive approach to solve this problem is to apply a breadth-first search from
 For each node, we'll get its distance from nearest '1'.
 This is approach is correct but not fast enough to pass the time constraint.
 
-A better approach to solve this problem is to use multisource-bfs technique.
+A better approach to solve this problem is to use <ins>multisource-bfs technique</ins>.
 Let us say the cells which have 1's in them are source and rest as vertices.
 
 # Explanation:
@@ -36,4 +36,4 @@ The idea is there cannot be a shorter path to the vertex at the front of the set
 
 Since all the sources have a distance = 0, in the beginning, the adjacent non-source vertices will get a distance = 1. All vertices will get distance = distance from their nearest source.
 
-Implementation : [code](https://ideone.com/7R7WMB)
+**Implementation** : [code](https://ideone.com/7R7WMB)
