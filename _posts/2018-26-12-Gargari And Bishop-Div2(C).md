@@ -24,10 +24,7 @@ and the other should be even.
 
 Implementation was simple.
 
-1. Use dynamic programming to fill the matrix that will give us the total number of points collected by a Bishop if placed at any cell    (r,c).That is, 
-
-for all i=1 to n:                                                                                                                         +for all j=1 to n:                                                                                                                     
-        dp[ i ][ j ] = total points earned by bishop if placed at cell ( i , j )
+1. Use dynamic programming to fill the matrix that will give us the total number of points collected by a Bishop if placed at any cell    (r,c).That is, for any cell (i , j) , dp[ i ][ j ] equals total points earned by bishop kept at cell (i , j).
 
 2. Find two cells such that the sum of indexes of one is odd and other even and the total points collected by placing the two Bishops at those  two indexes is maximised.
 
