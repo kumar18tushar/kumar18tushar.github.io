@@ -29,4 +29,4 @@ Implementation was simple.
 2. Find two cells such that the sum of indexes of one is odd and other even and the total points collected by placing the two Bishops at those  two indexes is maximised.
 
 
-
+**Implementation :** [here](https://ideone.com/RtyF3o)
