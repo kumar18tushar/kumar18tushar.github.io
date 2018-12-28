@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Bitmap(Spoj)
+title:      Bitmap
 date:       2018-12-05 1:21:18
 summary:    A bfs problem on spoj
 categories: BFS
