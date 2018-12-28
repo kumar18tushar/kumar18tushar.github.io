@@ -17,6 +17,7 @@ It took me quite a while to figure out the logic.
 
 The key idea behind this was that two Bishops placed on a chess board will not attack a common cell (I repeat , a common cell) 
 if and only if <ins>the sum of the row number and column number of one Bishop is odd and that of the other is even, respectively</ins>. If both will be odd or even together , there will be a common cell attacked by both.
+In simple words, one Bishop should be at white cell and other should be at black cell or vice-versa. Two cells with sums odd and even ensures that two cells are different ie. one is black and other white.
 
 That is, if Bishop 1 is at cell (r1,c1) and Bishop 2 is at cell (r2, c2)  , then one of the [ (r1+c1) , (r2+c2) ] should be odd 
 and the other should be even.
