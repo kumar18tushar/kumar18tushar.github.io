@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Tripple Fat Ladies(Spoj)
+title:      Tripple Fat Ladies
 date:       2018-10-03 12:32:18
 summary:    A number theory problem on spoj
 categories: Number-theory
