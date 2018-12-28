@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Party Schedule(Spoj)
+title:      Party Schedule
 date:       2018-12-02 1:21:18
 summary:    A dynamic programming problem on spoj
 categories: Dynamic-Programming
