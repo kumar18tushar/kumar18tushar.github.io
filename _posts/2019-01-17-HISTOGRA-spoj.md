@@ -14,7 +14,7 @@ tags:
 Today, I solved this problem [link](https://www.spoj.com/problems/HISTOGRA/) from Spoj.
 We are given with a histogram and we need to find the area of the largest rectangle formed
 
-![Thumper](https://i.imgur.com/iSeb3uD.jpg)
+![Thumper](https://i.imgur.com/u3BjujO.jpg)
 
 ### Approach:
 
@@ -27,9 +27,9 @@ Once we have index of the minimum value, the max area is maximum of following th
 
 ### Implementation:
 
-The main required is to find the index of the minimum element in the subinterval for each subproblem.
-To find this efficiently , we build a range-minimum segment tree.
-Next , we build a divide and conquer recursive function which returns the answer for each subproblem.
+* The main required is to find the index of the minimum element in the subinterval for each subproblem.
+  To find this efficiently , we build a range-minimum segment tree and querry.
+* Next , we build a divide and conquer recursive function which returns the answer for each subproblem.
 
 
 **Implementation :** [here](https://ideone.com/FWCNWt)
