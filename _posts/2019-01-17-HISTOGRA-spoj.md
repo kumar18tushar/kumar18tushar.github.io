@@ -36,6 +36,6 @@ Once we have index of the minimum value, the max area is maximum of following th
 
 
 
-**Link to code** [here](https://ideone.com/FWCNWt)
+**Link to code:** [here](https://ideone.com/FWCNWt)
 
 
