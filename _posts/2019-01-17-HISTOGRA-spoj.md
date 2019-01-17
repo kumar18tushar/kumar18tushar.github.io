@@ -30,7 +30,7 @@ Once we have index of the minimum value, the max area is maximum of following th
   
 # Implementation:
 
-* The main required is to find the index of the minimum element in the subinterval for each subproblem.
+* The main requirement is to find the index of the minimum element in the subinterval for each subproblem.
   To find this efficiently , we build a range-minimum segment tree and querry.
 * Next , we build a divide and conquer recursive function which returns the answer for each subproblem.<br/><br/>
 
