@@ -16,22 +16,26 @@ We are given with a histogram and we need to find the area of the largest rectan
 
 ![Thumper](https://i.imgur.com/u3BjujO.jpg)
 
-### Approach:
+
+
+# Approach:
 
 The idea is to find the minimum value in the given array. 
 Once we have index of the minimum value, the max area is maximum of following three values:
   * Maximum area in left side of minimum value (Not including the min value)
   * Maximum area in right side of minimum value (Not including the min value)
-  * Number of bars multiplied by minimum value.
+  * Number of bars multiplied by minimum value.<br/><br/><br/>
 
+  
+  
+# Implementation:
 
-### Implementation:
-
-* The main required is to find the index of the minimum element in the subinterval for each subproblem.
+* The main requirement is to find the index of the minimum element in the subinterval for each subproblem.
   To find this efficiently , we build a range-minimum segment tree and querry.
-* Next , we build a divide and conquer recursive function which returns the answer for each subproblem.
+* Next , we build a divide and conquer recursive function which returns the answer for each subproblem.<br/><br/>
 
 
-**Implementation :** [here](https://ideone.com/FWCNWt)
+
+**Link to code:** [here](https://ideone.com/FWCNWt)
 
 
