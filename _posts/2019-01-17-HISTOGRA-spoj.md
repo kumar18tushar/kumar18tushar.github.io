@@ -24,7 +24,7 @@ The idea is to find the minimum value in the given array.
 Once we have index of the minimum value, the max area is maximum of following three values:
   * Maximum area in left side of minimum value (Not including the min value)
   * Maximum area in right side of minimum value (Not including the min value)
-  * Number of bars multiplied by minimum value.
+  * Number of bars multiplied by minimum value.<br/>
 
   
   
@@ -32,7 +32,7 @@ Once we have index of the minimum value, the max area is maximum of following th
 
 * The main required is to find the index of the minimum element in the subinterval for each subproblem.
   To find this efficiently , we build a range-minimum segment tree and querry.
-* Next , we build a divide and conquer recursive function which returns the answer for each subproblem.
+* Next , we build a divide and conquer recursive function which returns the answer for each subproblem.<br/><br/>
 
 
 
