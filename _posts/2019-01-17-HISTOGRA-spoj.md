@@ -16,6 +16,8 @@ We are given with a histogram and we need to find the area of the largest rectan
 
 ![Thumper](https://i.imgur.com/u3BjujO.jpg)
 
+
+
 ### Approach:
 
 The idea is to find the minimum value in the given array. 
@@ -25,6 +27,7 @@ Once we have index of the minimum value, the max area is maximum of following th
   * Number of bars multiplied by minimum value.
 
 
+
 ### Implementation:
 
 * The main required is to find the index of the minimum element in the subinterval for each subproblem.
@@ -32,6 +35,7 @@ Once we have index of the minimum value, the max area is maximum of following th
 * Next , we build a divide and conquer recursive function which returns the answer for each subproblem.
 
 
-**Implementation :** [here](https://ideone.com/FWCNWt)
+
+**Link to code**[here](https://ideone.com/FWCNWt)
 
 
