@@ -24,7 +24,7 @@ The idea is to find the minimum value in the given array.
 Once we have index of the minimum value, the max area is maximum of following three values:
   * Maximum area in left side of minimum value (Not including the min value)
   * Maximum area in right side of minimum value (Not including the min value)
-  * Number of bars multiplied by minimum value.<br/><br/>
+  * Number of bars multiplied by minimum value.<br/><br/><br/>
 
   
   
