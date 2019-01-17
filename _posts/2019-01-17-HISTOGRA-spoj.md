@@ -18,7 +18,7 @@ We are given with a histogram and we need to find the area of the largest rectan
 
 
 
-### Approach:
+# Approach:
 
 The idea is to find the minimum value in the given array. 
 Once we have index of the minimum value, the max area is maximum of following three values:
@@ -26,9 +26,9 @@ Once we have index of the minimum value, the max area is maximum of following th
   * Maximum area in right side of minimum value (Not including the min value)
   * Number of bars multiplied by minimum value.
 
-
-
-### Implementation:
+  
+  
+# Implementation:
 
 * The main required is to find the index of the minimum element in the subinterval for each subproblem.
   To find this efficiently , we build a range-minimum segment tree and querry.
@@ -36,6 +36,6 @@ Once we have index of the minimum value, the max area is maximum of following th
 
 
 
-**Link to code**[here](https://ideone.com/FWCNWt)
+**Link to code** [here](https://ideone.com/FWCNWt)
 
 
