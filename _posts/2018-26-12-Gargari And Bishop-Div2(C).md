@@ -30,3 +30,11 @@ Implementation was simple.
 
 
 **Implementation :** [here](https://ideone.com/RtyF3o)
+
+
+##Update :
+
+In a matrix ,  two elemnts , one  at (x1,y1) and other at (x2,y2) belong to same diagonal if and only if  , 
+either x1 + y1 == x2 + y2 OR x1 — y1 == x2 — y2.
+
+Problem : [link](https://codeforces.com/problemset/problem/621/B)
