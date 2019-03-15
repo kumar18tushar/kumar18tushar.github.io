@@ -19,9 +19,9 @@ And order does not matter .. ie. fib[i] + fib[j] is same as fib[j] + fib[i].<br/
 Now to form dp relation:
 Let $$DP(x,k,n)$$ be the number of ways to form the sum x using exactly k fibonacci numbers from fib(1),fib(2),…fib(n).<br/>
 
-So,we have two options:<br/> 
-      *Either don't take the nth fib and proceed with (n-1)th one, or<br/>
-      *Either take nth fib and reduces k and x and call from n again.<br/>
+So, we have two options:
+  * Either don't take the nth fib and proceed with (n-1)th one,
+  * Either take nth fib and reduces k and x and call from n again.
 
 Then DP can be calculated using the following relation:
 $$DP(x,k,n) = DP(x,k,n-1) + DP(x-fib[n],k-1,n)$$
