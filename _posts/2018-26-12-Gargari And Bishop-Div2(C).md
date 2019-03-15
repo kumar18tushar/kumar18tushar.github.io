@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Gargari And Bishop(Codeforces)
+title:      Gargari And Bishop
 date:       2018-12-26 15:06
 summary:    Greedy and DP
 categories: Greedy
