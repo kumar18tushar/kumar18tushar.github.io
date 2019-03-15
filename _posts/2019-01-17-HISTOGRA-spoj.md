@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Largest Rectangle in a Histogram
-date:       2018-01-17 19:58:18
+date:       2019-01-17 19:58:18
 summary:    A Divide and Conquer problem
 categories: Divide_And_Conquer
 thumbnail: cogs
