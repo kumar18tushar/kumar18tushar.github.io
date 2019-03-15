@@ -20,15 +20,15 @@ Now to form dp relation:
 Let $$DP(x,k,n)$$ be the number of ways to form the sum x using exactly k fibonacci numbers from fib(1),fib(2),…fib(n).<br/>
 
 So,we have two options:<br/> 
-      *Either don't take the nth fib and proceed with (n-1)th one, or</br>
-      *Either take nth fib and reduces k and x and call from n again.</br>
+      *Either don't take the nth fib and proceed with (n-1)th one, or<br/>
+      *Either take nth fib and reduces k and x and call from n again.<br/>
 
 Then DP can be calculated using the following relation:
 $$DP(x,k,n) = DP(x,k,n-1) + DP(x-fib[n],k-1,n)$$
 
 Our answer will be DP(x,k,n).<br/>
 Constraint is small. Just with small prunning, the recurssion can pass.<br/>
-Prunning : If fib(n)*k<x , DP(x,k,n) = 0;<br/><br/> 
+Prunning : If $$fib(n)*k<x$$ , $$DP(x,k,n) = 0$$<br/><br/> 
 
 **Implementation :** [code](https://ideone.com/qQpz5f)
 
